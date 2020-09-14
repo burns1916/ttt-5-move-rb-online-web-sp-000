@@ -9,6 +9,10 @@ require_relative '../lib/move.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "Where would you like to go?"
   input = gets.strip
+<<<<<<< HEAD
   index = input_to_index(input)
   move(board, index, character = "X")
+=======
+  input_to_index(input)
+>>>>>>> 8b72f477bf85c7147795ec4a326b6a14bce0ce43
   puts display_board(board)
